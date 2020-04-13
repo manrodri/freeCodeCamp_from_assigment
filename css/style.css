@@ -1,0 +1,77 @@
+/*  img url: https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg */
+/* 
+font-family: 'Blinker', sans-serif; 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Blinker', sans-serif;
+    
+}
+
+/* typography */
+#title, #description {
+    text-align: center;
+}
+
+#title {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* form */
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 3em;
+    max-width: 800px;
+
+}
+
+label {
+    margin-bottom: 1em;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#submit {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#submit:hover, #submit-focus {
+
+}
+
+#comments {
+    margin: 1em 0;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.box {
+    font-family: inherit;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: .25em;
+    
+}
+
+#survey-form {
+    width: 80%;
+    max-width: 700px;
+    margin: 0;
+}

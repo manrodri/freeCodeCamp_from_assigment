@@ -1,0 +1,68 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form Assignment</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id='title'>freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us to improve the platform</p>
+        <div class="container container-form">
+            <form action="#" method="POST" id='survey-form'>
+                <label id='name-label'  for="name">Name</label><br>
+                <input id="name" type="text" class="box" placeholder="Enter your name" required>
+                <label id="email-label" for="email">Email</label><br>
+                <input id="email" type="email" class="box" placeholder="Enter your email" required>
+                <label id="number-label" for="number">Age</label><br>
+                <input id="number" type="number" class="box" placeholder="Enter your age" min="1" max="99">
+                <label id='dropdown-label' for="dropdown"></label><br>
+                <select id="dropdown" class="box"><br>
+                    <option selected="true" disabled="disabled">Choose option</option> 
+                    <option value="Student">Student</option>
+                    <option value="Full time job">Full time job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select>
+                <label id='radio-label' for="gender">What is your gender?</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+
+                <label id='checkboxes-label' for="dropdown">What would you like to see more in freeCodeCamp?</label><br>
+                <input type="checkbox" id="feature1" name="feature1" value="Front-end">
+                <label for="feature1"> Front-end projects</label><br>
+                <input type="checkbox" id="feature2" name="feature2" value="Back-end">
+                <label for="feature2"> Back-end projects</label><br>
+                <input type="checkbox" id="feature3" name="feature3" value="Data-visualisation">
+                <label for="feature3"> Data Data visualisation</label><br>
+
+                <label for="comments">Any comments or suggestions?</label><br>
+
+                <textarea id="comments" rows="4" cols="50" placeholder="add your comments here"></textarea>
+
+                <button type="submit" id="submit">Submit</button>
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
