@@ -10,6 +10,9 @@ font-family: 'Blinker', sans-serif;
 body {
     margin: 0;
     font-family: 'Blinker', sans-serif;
+    background-image: linear-gradient( 115deg, rgba(115, 115, 189, 0.8), rgba(194, 194, 226, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    
+
     
 }
 
@@ -30,7 +33,10 @@ body {
     width: 90%;
     padding: 3em;
     max-width: 800px;
-
+    color: #fff;
+    font-size: 1.25rem;
+    
+    
 }
 
 label {
@@ -40,30 +46,42 @@ label {
 .container-form {
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
+    background-color: rgba(9, 27, 53, 0.6);
+    
     
     
 }
 
 #submit {
     cursor: pointer;
+    letter-spacing: 1px;
+    display: inline-block;
+    color: #fff;
     width: 100%;
-    border-radius: 3px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
     text-align: center;
+    background-image: linear-gradient(to right, rgba(39, 192, 25, 0.4), rgba(6, 56, 18, 0.5));
+    transition: transform 250ms;
+    transform: scale(1);
 }
 
 #submit:hover, #submit-focus {
-
+    transform: scale(1.1);
 }
 
 #comments {
     margin: 1em 0;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .box {
     font-family: inherit;
-    border-radius: 3px;
+    font-size: inherit;
+    border-radius: 10px;
+    border: none;
     width: 100%;
     margin-bottom: 1em;
     padding: .25em;
